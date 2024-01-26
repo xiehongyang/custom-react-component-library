@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb4ebb05-14f6-407b-9c99-27817e127f68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Icon/_style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icon/icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Transition/transition.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/button.stories.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/menu.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/menuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/menuItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Menu/subMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/subMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +68,22 @@
       <recent name="$PROJECT_DIR$/src/components/Button" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -92,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
       </list>
@@ -116,7 +126,11 @@
       <workItem from="1705136109753" duration="1276000" />
       <workItem from="1705237097315" duration="809000" />
       <workItem from="1705307550768" duration="6411000" />
-      <workItem from="1705383157184" duration="4351000" />
+      <workItem from="1705383157184" duration="4645000" />
+      <workItem from="1705542618412" duration="9680000" />
+      <workItem from="1705892218158" duration="3897000" />
+      <workItem from="1706082244793" duration="3180000" />
+      <workItem from="1706269032361" duration="972000" />
     </task>
     <servers />
   </component>

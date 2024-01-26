@@ -12,6 +12,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
+                <Button size={ButtonSize.Large}>large button</Button>
                 <Icon icon="arrow-down" theme="primary" size="10x"></Icon>
                 <Menu mode="vertical" defaultIndex={0} onSelect={(index) => {
                     alert(index)

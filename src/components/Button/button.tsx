@@ -2,7 +2,7 @@ import classNames from "classnames";
 import React from "react";
 
 export enum ButtonSize {
-    Large= 'lg',
+    Large = 'lg',
     Small = 'sm'
 }
 
@@ -16,7 +16,7 @@ export enum ButtonType {
 interface BaseButtonProps {
     className?: string;
     disabled?: boolean;
-    size?: ButtonSize;
+    size: ButtonSize;
     btnType?: ButtonType;
     children: React.ReactNode;
     href?: string;
@@ -25,7 +25,15 @@ interface BaseButtonProps {
 type NativeButtonProps = React.ButtonHTMLAttributes<HTMLElement>;
 type AnchorButtonProps = React.AnchorHTMLAttributes<HTMLElement>;
 export type ButtonProps = Partial<BaseButtonProps & NativeButtonProps & AnchorButtonProps>;
-const Button: React.FC<ButtonProps> = (props) => {
+
+/**
+ * Most common element in HTML page, Support HTML button and a link
+ * ### import method
+ * ```js
+ *  import {Button} from 'custom-react-component-library';
+ * ```
+ */
+export const Button: React.FC<ButtonProps> = (props) => {
     const {
         btnType,
         className,
